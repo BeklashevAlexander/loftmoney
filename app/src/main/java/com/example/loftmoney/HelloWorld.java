@@ -1,9 +1,9 @@
 package com.example.loftmoney;
 
 
-public class MainActivityHelloWorld{
+public class HelloWorld {
     public static void MainActivityHelloWorld(String [] args){
-        System.out.println("Hello, world!");
+        System.out.println("Привет, Мир!");
     }
 }
 

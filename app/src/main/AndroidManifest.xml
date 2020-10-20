@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".AddItemActivity"></activity>
-        <activity android:name=".MainActivityHelloWorld" />
+        <activity android:name=".HelloWorld" />
         <activity android:name=".SecondActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
