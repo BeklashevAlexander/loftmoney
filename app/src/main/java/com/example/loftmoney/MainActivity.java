@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
 //        configureRecyclerView();
     }
 
-    /*private void configureRecyclerView() {
-        itemView = findeViewByTd(R.Id.itemsView);
+    private void configureRecyclerView() {
+//        itemView = findeViewByTd(R.Id.itemsView);
 
-    }*/
+    }
 }
