@@ -17,6 +17,16 @@ public class MoneyCellAdapter extends RecyclerView.Adapter<MoneyCellAdapter.Mone
 
     private List<MoneyItem> moneyItemList = new ArrayList<>();
 
+    public void setData(List<MoneyItem> moneyItems) {
+        moneyItemList.clear();
+        moneyItemList.addAll(moneyItems);
+
+        notifyDataSetChanged();
+
+    }
+
+
+
     @NonNull
     @Override
     public MoneyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
